@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(images/bgimg.jpg) no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+}
+.contain h1 {
+  color: black;
+}
+.contain {
+  border: 2px solid black;
+  position: relative;
+  top: 300px;
+  height: 140px;
+  width: 41%;
+  right: -30%;
+  border-radius: 35px;
+  background-color: #0000004d;
+  box-shadow: inset 1px -1px 20px 9px #000000;
+  animation-name: corka;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#icon {
+  font-size: 60px;
+  margin: 12px;
+}
+#age {
+  font-size: 60px;
+  margin: 12px;
+}
+#pore {
+  font-size: 60px;
+  margin: 12px;
+}
+.contain {
+  display: flex;
+  justify-content: center;
+}
+.purapele {
+  margin-top: 9px;
+  cursor: pointer;
+}
+#gaan {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+body h1 {
+  font-family: "Oswald", sans-serif;
+  margin-left: 18px;
+  font-size: 50px;
+  color: rgba(23, 24, 24, 0.658);
+}
+@keyframes corka {
+  0% {
+    box-shadow: inset 1px -1px 20px 9px #000000;
+  }
+  25% {
+    box-shadow: inset 1px -1px 20px 9px #e00d0d;
+  }
+  50% {
+    box-shadow: inset 1px -1px 20px 9px #c2bf1c;
+  }
+  75% {
+    box-shadow: inset 1px -1px 20px 9px #16fdd7ab;
+  }
+  100% {
+    box-shadow: inset 1px -1px 20px 9px #e00df3cb;
+  }
+}

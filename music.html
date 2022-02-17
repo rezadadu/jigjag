@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2180040106.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="mu">
+      Welcome <br />
+      To <br />
+      Music Dadu
+    </h1>
+    <div class="container">
+      <div class="contain">
+        <div class="play">
+          <p id="gaan">
+            Coming Home <br />
+            Diddy-Dirty Money, Skyler grey
+          </p>
+          <div class="purapele">
+            <i class="fa-solid fa-backward" id="age"></i>
+            <i class="fa-solid fa-circle-play" id="icon"></i>
+
+            <i class="fa-solid fa-forward" id="pore"></i>
+            <audio id="gana" src="music/comin.mp3" type="mp3"></audio>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var gana = document.getElementById("gana");
+      var icon = document.getElementById("icon");
+      icon.onclick = function () {
+        gana.play();
+      };
+    </script>
+  </body>
+</html>
